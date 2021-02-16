@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post example</title>
+</head>
+
+<body>
+    <form action="/formSubmit" method="POST">
+        <input type="text" placeholder='email' name="emailField" id="emailField">
+        <input type="text" placeholder='first name' name="firstName" id="firstName">
+        <input type="text" placeholder='last name' name="lastName" id="lastName">
+        <input type="number" placeholder='phone number' name="phoneNumber" id="phoneNumber">
+        <button>Submit</button>
+    </form>
+    <form action="/userLookup" method="GET">
+        <input type="text" placeholder="Search User" name="userName" id="userName">
+    </form>
+</body>
+
+</html>
