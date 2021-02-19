@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  mywebsite:
+    image: recipesapp:latest
+    ports:
+      - 3000:3001
+    deploy:
+      replicas: 3
+  mywebsite2:
+    image: recipesapp:latest
+    ports:
+      - 3001:3001
+    deploy:
+      replicas: 3
